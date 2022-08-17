@@ -28,7 +28,8 @@ scene("game", () => {
       player.jump(JUMP_FORCE);
     }
   }
-
+  onKeyPress("up", jump);
+  onKeyPress("w", jump);
   onKeyPress("space", jump);
   onClick(jump);
 
